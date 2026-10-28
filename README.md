@@ -18,6 +18,7 @@ See `使用说明.txt` (Chinese) for loading examples, directory layout, and reg
 | `*.npy` | Bulk waveforms per class |
 | `manifest.json` | Generation metadata |
 | `figures/` | Example waveforms and STFT plots |
+| `paper/` | Related paper (SRT-YOLO11, `.docx`) |
 
 ## License
 
