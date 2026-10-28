@@ -1,0 +1,152 @@
+{
+  "description": "8 HF signal classes, STFT same as pipeline.py (FS=8000, NFFT=256, NHOP=64)",
+  "n_per_class": 1000,
+  "showcase_index": 0,
+  "seed_base": 2026,
+  "formats": {
+    "bulk_signals": ".npy float32 shape (N, 4096)",
+    "spectrogram_images": ".png 300 dpi",
+    "spectrogram_arrays": ".npy float32 shape (129, 65) dB",
+    "manifest": "manifest.json"
+  },
+  "classes": [
+    {
+      "display_name": "2G-ALE",
+      "seed": 2026,
+      "waveform_png": "E:\\signals\\clean_signals_1000\\figures\\2G-ALE_waveform.png",
+      "stft_png": "E:\\signals\\clean_signals_1000\\figures\\2G-ALE_stft.png",
+      "combo_png": "E:\\signals\\clean_signals_1000\\figures\\2G-ALE_waveform_stft.png",
+      "stft_npy": "E:\\signals\\clean_signals_1000\\figures\\2G-ALE_stft.npy",
+      "stft_shape": [
+        129,
+        65
+      ],
+      "bulk_npy": "E:\\signals\\clean_signals_1000\\signals_npy\\2G-ALE.npy",
+      "bulk_shape": [
+        1000,
+        4096
+      ]
+    },
+    {
+      "display_name": "3G-ALE_BW0",
+      "seed": 102026,
+      "waveform_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW0_waveform.png",
+      "stft_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW0_stft.png",
+      "combo_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW0_waveform_stft.png",
+      "stft_npy": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW0_stft.npy",
+      "stft_shape": [
+        129,
+        65
+      ],
+      "bulk_npy": "E:\\signals\\clean_signals_1000\\signals_npy\\3G-ALE_BW0.npy",
+      "bulk_shape": [
+        1000,
+        4096
+      ]
+    },
+    {
+      "display_name": "3G-ALE_BW1",
+      "seed": 202026,
+      "waveform_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW1_waveform.png",
+      "stft_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW1_stft.png",
+      "combo_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW1_waveform_stft.png",
+      "stft_npy": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW1_stft.npy",
+      "stft_shape": [
+        129,
+        65
+      ],
+      "bulk_npy": "E:\\signals\\clean_signals_1000\\signals_npy\\3G-ALE_BW1.npy",
+      "bulk_shape": [
+        1000,
+        4096
+      ]
+    },
+    {
+      "display_name": "3G-ALE_BW2",
+      "seed": 302026,
+      "waveform_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW2_waveform.png",
+      "stft_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW2_stft.png",
+      "combo_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW2_waveform_stft.png",
+      "stft_npy": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW2_stft.npy",
+      "stft_shape": [
+        129,
+        65
+      ],
+      "bulk_npy": "E:\\signals\\clean_signals_1000\\signals_npy\\3G-ALE_BW2.npy",
+      "bulk_shape": [
+        1000,
+        4096
+      ]
+    },
+    {
+      "display_name": "3G-ALE_BW3",
+      "seed": 402026,
+      "waveform_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW3_waveform.png",
+      "stft_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW3_stft.png",
+      "combo_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW3_waveform_stft.png",
+      "stft_npy": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW3_stft.npy",
+      "stft_shape": [
+        129,
+        65
+      ],
+      "bulk_npy": "E:\\signals\\clean_signals_1000\\signals_npy\\3G-ALE_BW3.npy",
+      "bulk_shape": [
+        1000,
+        4096
+      ]
+    },
+    {
+      "display_name": "3G-ALE_BW4",
+      "seed": 502026,
+      "waveform_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW4_waveform.png",
+      "stft_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW4_stft.png",
+      "combo_png": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW4_waveform_stft.png",
+      "stft_npy": "E:\\signals\\clean_signals_1000\\figures\\3G-ALE_BW4_stft.npy",
+      "stft_shape": [
+        129,
+        65
+      ],
+      "bulk_npy": "E:\\signals\\clean_signals_1000\\signals_npy\\3G-ALE_BW4.npy",
+      "bulk_shape": [
+        1000,
+        4096
+      ]
+    },
+    {
+      "display_name": "CLOVER-2000",
+      "seed": 602026,
+      "waveform_png": "E:\\signals\\clean_signals_1000\\figures\\CLOVER-2000_waveform.png",
+      "stft_png": "E:\\signals\\clean_signals_1000\\figures\\CLOVER-2000_stft.png",
+      "combo_png": "E:\\signals\\clean_signals_1000\\figures\\CLOVER-2000_waveform_stft.png",
+      "stft_npy": "E:\\signals\\clean_signals_1000\\figures\\CLOVER-2000_stft.npy",
+      "stft_shape": [
+        129,
+        65
+      ],
+      "bulk_npy": "E:\\signals\\clean_signals_1000\\signals_npy\\CLOVER-2000.npy",
+      "bulk_shape": [
+        1000,
+        4096
+      ]
+    },
+    {
+      "display_name": "LINK11-CLEW",
+      "seed": 702026,
+      "waveform_png": "E:\\signals\\clean_signals_1000\\figures\\LINK11-CLEW_waveform.png",
+      "stft_png": "E:\\signals\\clean_signals_1000\\figures\\LINK11-CLEW_stft.png",
+      "combo_png": "E:\\signals\\clean_signals_1000\\figures\\LINK11-CLEW_waveform_stft.png",
+      "stft_npy": "E:\\signals\\clean_signals_1000\\figures\\LINK11-CLEW_stft.npy",
+      "stft_shape": [
+        129,
+        65
+      ],
+      "bulk_npy": "E:\\signals\\clean_signals_1000\\signals_npy\\LINK11-CLEW.npy",
+      "bulk_shape": [
+        1000,
+        4096
+      ]
+    }
+  ],
+  "overview_grid_png": "E:\\signals\\clean_signals_1000\\figures\\overview_8signals_stft_grid.png",
+  "elapsed_sec": 143.9
+}
